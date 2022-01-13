@@ -14,8 +14,8 @@ import { TransformerHero } from './transformer';
  */
 export const humans: HumanHero[] = [
     new HumanHero(1, "Eszter", "man", 23, 5, "portre"),
-    new HumanHero(2, "Huba", "man", 66, 6),
-    new HumanHero(3, "Feri", "man", 55, 3)
+    new HumanHero(2, "Huba", "man", 66, 6, "portre"),
+    new HumanHero(3, "Feri", "man", 55, 3, "portre")
 
 ];
 
@@ -27,9 +27,9 @@ export const humans: HumanHero[] = [
  * @var {TransformerHero[]} transformers
  */
 export const transformers: TransformerHero[] = [
-    new TransformerHero(1, "Róbert", 4, 5),
-    new TransformerHero(2, "Superman", 3, 6, "portre"),
-    new TransformerHero(3, "Wonderwoman", 5, 8)
+    new TransformerHero(1, "Róbert", 4, 5, "what"),
+    new TransformerHero(2, "Superman", 3, 6, "bestclan"),
+    new TransformerHero(3, "Wonderwoman", 5, 8, "superhumans")
 
 
 ];

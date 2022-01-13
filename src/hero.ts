@@ -13,6 +13,7 @@ export class HumanHero implements IHuman {
     sex: string;
     age: number;
     health: number;
+
     photo?: string;
 
     constructor(id: number, name: string, sex: string, age: number, health: number, photo?: string) {

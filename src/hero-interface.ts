@@ -36,7 +36,7 @@ export interface IHuman extends IHero {
 export interface ITransformer extends IHero {
     wings: number;
     wheels: number;
-    clan: string
+    clan: string;
 }
 
 
